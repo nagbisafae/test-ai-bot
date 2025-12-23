@@ -8,8 +8,7 @@ public class BuggyCode {
         String query = "SELECT * FROM users WHERE name = " + username;
         System.out.println(query);
     }
-    
-    // Missing null check
+
     public String format(String text) {
         return text.toUpperCase();
     }
