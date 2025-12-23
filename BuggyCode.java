@@ -1,5 +1,5 @@
 public class BuggyCode {
-    // TESTING 2
+    // TESTING format
     // Hardcoded API key
     private String apiKey = "sk-test-12345";
     
