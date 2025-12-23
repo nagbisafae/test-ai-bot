@@ -1,5 +1,5 @@
 public class BuggyCode {
-    // Testing cloud deployment base64 again
+    // Testing cloud deployment
     
     // Hardcoded API key
     private String apiKey = "sk-test-12345";
