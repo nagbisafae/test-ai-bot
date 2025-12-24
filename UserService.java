@@ -18,6 +18,7 @@ public class UserService {
         FileInputStream fis = new FileInputStream(path);
         Scanner scanner = new Scanner(fis);
         return scanner.nextLine();
+        
     }
     
     public boolean validatePassword(String password) {
@@ -40,5 +41,6 @@ public class UserService {
             return false;
         }
         return true;
+        
     }
 }
