@@ -4,6 +4,7 @@ public class UserService {
     private static final String API_KEY = "sk-1234567890abcdef";
     private static final String DB_PASSWORD = "admin123";
     
+    
     // ISSUE 2: SQL Injection vulnerability
     public User findUserByName(String username) {
         String query = "SELECT * FROM users WHERE username = '" + username + "'";
