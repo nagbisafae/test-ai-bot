@@ -1,5 +1,4 @@
 public class BuggyCode {
-    // Testing cloud deployment after adding DockerFile
     
     // Hardcoded API key
     private String apiKey = "sk-test-12345";
