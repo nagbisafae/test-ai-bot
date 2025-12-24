@@ -10,6 +10,7 @@ public class BuggyCode {
         System.out.println(query);
     }
 
+    // third method
     public String format(String text) {
         return text.toUpperCase();
     }
