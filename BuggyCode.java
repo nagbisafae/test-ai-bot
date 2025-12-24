@@ -1,5 +1,5 @@
 public class BuggyCode {
-    // test utc time
+    // test PAT in GC
     
     // Hardcoded API key
     private String apiKey = "sk-test-12345";
