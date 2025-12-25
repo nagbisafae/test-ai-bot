@@ -1,0 +1,17 @@
+public class BuggyCode {
+    // test PAT in GC
+    
+    // Hardcoded API key
+    private String apiKey = "sk-test-12345";
+    
+    // SQL injection vulnerability
+    public void findUser(String username) {
+        String query = "SELECT * FROM users WHERE name = " + username;
+        System.out.println(query);
+    }
+
+    // third method
+    public String format(String text) {
+        return text.toUpperCase();
+    }
+}
